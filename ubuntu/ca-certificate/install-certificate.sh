@@ -19,6 +19,7 @@ sudo apt install libnss3-tools
 ### Script installs root.cert.pem to certificate trust store of applications using NSS
 ### (e.g. Firefox, Thunderbird, Chromium)
 ### Mozilla uses cert8, Chromium and Chrome use cert9
+### /home/<user>/.pki/nssdb/cert9.db is the chrome db!
 
 ###
 ### For cert8 (legacy - DBM)
