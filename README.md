@@ -25,3 +25,15 @@ Or the remote one liner ;)
 
     wget https://raw.githubusercontent.com/ManuelReschke/linux-helper/master/ubuntu/docker/cleanup.sh; chmod +x cleanup.sh; sudo ./cleanup.sh
     
+### CA Certificate
+
+#### Install certificate on system and update browser db
+
+Put the cert file and the script in the same folder and run this command
+
+    ./ubuntu/ca-certificate/install-certificate.sh
+    
+Remote install
+
+    wget https://raw.githubusercontent.com/ManuelReschke/linux-helper/master/ubuntu/ca-certificate/install-certificate.sh; chmod +x install-certificate.sh
+    
