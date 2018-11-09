@@ -21,23 +21,17 @@ sudo apt install libnss3-tools
 ### Mozilla uses cert8, Chromium and Chrome use cert9
 ### /home/<user>/.pki/nssdb/cert9.db is the chrome db!
 
-###
 ### For cert8 (legacy - DBM)
-###
-
 for certDB in $(find ~/ -name "cert8.db")
 do
     certdir=$(dirname ${certDB});
-    certutil -A -n "${certname}" -t "TCu,Cu,Tu" -i ${CERT_FILE} -d dbm:${certdir}
+    certutil -A -n "${CERT_NAME}" -t "TCu,Cu,Tu" -i ${CERT_FILE} -d dbm:${certdir}
 done
 
 
-###
 ### For cert9 (SQL)
-###
-
 for certDB in $(find ~/ -name "cert9.db")
 do
     certdir=$(dirname ${certDB});
-    certutil -A -n "${certname}" -t "TCu,Cu,Tu" -i ${CERT_FILE} -d sql:${certdir}
+    certutil -A -n "${CERT_NAME}" -t "TCu,Cu,Tu" -i ${CERT_FILE} -d sql:${certdir}
 done
