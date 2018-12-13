@@ -8,7 +8,7 @@
 DOCKER_CHANNEL="stable"
 
 # latest 1.22.0 -> https://docs.docker.com/release-notes/docker-compose/
-DOCKER_COMPOSE_VERSION="1.22.0"
+DOCKER_COMPOSE_VERSION="1.23.2"
 
 #########################
 ## Remove old Versions ##
