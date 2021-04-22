@@ -1,9 +1,10 @@
 # linux-helper
 Some useful helping linux scripts.
 
-## Ubuntu (16,17,18)
+## Ubuntu (16,17,18,20)
 
-### Docker
+___
+### Docker Helper
 
 #### Install or update
 
@@ -24,8 +25,9 @@ Remove all containers, images, networks and volumes
 Or the remote one liner ;)
 
     wget https://raw.githubusercontent.com/ManuelReschke/linux-helper/master/ubuntu/docker/cleanup.sh; chmod +x cleanup.sh; sudo ./cleanup.sh
-    
-### CA Certificate
+   
+___
+### CA Certificate Helper
 
 #### Install certificate on system and update browser db
 
