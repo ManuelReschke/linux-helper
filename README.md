@@ -1,7 +1,7 @@
 # linux-helper
 Some useful helping linux scripts.
 
-## Ubuntu (16,17,18,20)
+## Ubuntu (16,17,18,19,20,21,22)
 
 ___
 ### Docker Helper
