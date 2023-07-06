@@ -7,8 +7,8 @@
 # possible stable, test, and nightly
 DOCKER_CHANNEL="stable"
 
-# latest 1.24.0 -> https://docs.docker.com/release-notes/docker-compose/
-DOCKER_COMPOSE_VERSION="v2.16.0"
+# docker-compose releases -> https://github.com/docker/compose/releases
+DOCKER_COMPOSE_VERSION="v2.19.1"
 
 #########################
 ## Remove old Versions ##
