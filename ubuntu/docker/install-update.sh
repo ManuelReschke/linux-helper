@@ -8,7 +8,9 @@
 DOCKER_CHANNEL="stable"
 
 # docker-compose releases -> https://github.com/docker/compose/releases
-DOCKER_COMPOSE_VERSION="v2.19.1"
+# 2023-06-29 -> v2.19.1
+# 2024-08-16 -> v2.29.2
+DOCKER_COMPOSE_VERSION="v2.29.2"
 
 #########################
 ## Remove old Versions ##
