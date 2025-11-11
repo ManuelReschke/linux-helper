@@ -11,11 +11,11 @@ set -euo pipefail
 #   --yes                : Bestätigungen automatisch mit "Ja"
 # Umgebungsvariablen (optional):
 #   DOCKER_CHANNEL       : stable | test | nightly (Default: stable)
-#   DOCKER_COMPOSE_VERSION : z. B. v2.29.2 (Legacy-Binary; leer lassen, um zu überspringen)
+#   DOCKER_COMPOSE_VERSION : z. B. v2.40.3 (Legacy-Binary; leer lassen, um zu überspringen)
 #####################################
 
 DOCKER_CHANNEL="${DOCKER_CHANNEL:-stable}"
-DOCKER_COMPOSE_VERSION="${DOCKER_COMPOSE_VERSION:-v2.29.2}"
+DOCKER_COMPOSE_VERSION="${DOCKER_COMPOSE_VERSION:-v2.40.3}"
 DEBIAN_FRONTEND=noninteractive
 
 DRY_RUN=0
